@@ -140,5 +140,5 @@ class visualizer():
         plt.axis('off')
         plt.ion()
         plt.show()
-        plt.pause(0.001)
+        plt.pause(3)
         return board

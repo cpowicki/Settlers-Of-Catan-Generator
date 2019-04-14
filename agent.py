@@ -24,10 +24,6 @@ class agent:
         city = min(self.resources["Ore"] // 3, self.resources["Wheat"] // 2)
 
     def pickup(roll):
-        for i in self.vertices:
-            vert_yield = i.farm(roll)
-            for r in vert_yield.keys():
-                self.resources[r] += vert_yield[r]
 
     def turn():
         roll = r.randint(1, 6) + r.randint(1, 6)
